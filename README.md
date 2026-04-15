@@ -3,37 +3,37 @@
 This project aims to analyze sales of coffee products of a cafe to determine sales increase over 2 years span (2024, 2025), determine high-demand products, rush hours, and come up with a strategy to further increase sales and consumer satisfaction.
 
 ### 2. Dataset 
-•	Source: Kaggle (Coffee Sales Dataset) 
-•	Contains information on order date (hour, weekday, month,...), time, payment method, and sales amount. 
-•	Compromised of about 3,500 transaction records.
+- Source: Kaggle [(Coffee Sales Dataset)](https://www.kaggle.com/datasets/navjotkaushal/coffee-sales-dataset)
+- Contains information on order date (hour, weekday, month,...), time, payment method, and sales amount.
+- Compromised of about 3,500 transaction records.
 
 ### 3. Tools & Technologies 
-•	Power Query (Data cleaning) 
-•	DAX (Data modelling and summarization)
-•	Power BI (Data visualization) 
+- Power Query (Data cleaning)
+- DAX (Data modelling and summarization)
+- Power BI (Data visualization) 
 
 ### 4. Data Cleaning 
-•	Removed missing and duplicate records 
-•	Standardized column names and data types. 
-•	Created DAX measures such as Profit and Revenue 
+- Removed missing and duplicate records
+- Standardized column names and data types.
+- Created DAX measures such as Profit and Revenue 
 
 ### 5. Data Modeling 
 The data was structured using a star schema, with a FactSales fact table connected to a date dimension table. 
 
 ### 6. Business Questions 
-•	What are the overall sales over time? 
-•	Which drinks provide the highest and lowest sales? 
-•	Which drinks are the most and least ordered?
-•	What are the rush hour periods throughout the day?
-•	Are there seasonal changes in customers’ ordering behavior?
+- What are the overall sales over time?
+- Which drinks provide the highest and lowest sales?
+- Which drinks are the most and least ordered?
+- What are the rush hour periods throughout the day?
+- Are there seasonal changes in customers’ ordering behavior?
 
 ### 7. Analysis 
-•	Analyzed monthly sales trends to identify growth and decline periods 
-•	Compared different drinks based on sales contribution and quantity sold. 
-•	Explored seasonal variations in ordering behavior.
+- Analyzed monthly sales trends to identify growth and decline periods
+- Compared different drinks based on sales contribution and quantity sold.
+- Explored seasonal variations in ordering behavior.
 
 ### 8. Visualization 
-Dashboard One: Coffee Sales
+#### [Dashboard One: Coffee Sales](https://github.com/noura-tarek-m/coffee-sales-analysis/blob/main/project-images/Screenshot%202026-02-20%20232703.png)
 This dashboard aims to analyze sales trend over time, sales and orders contribution of different drinks, and order frequency changes throughout the day. It contains the following KPIs: total sales, orders, and average order value. It visualizes sales trends over time, orders by daytime, drinks contribution to sales and orders, and compares yearly sales. It helps in determining highly demanded drinks, rush hours, and seasonal sales peaks.
  
 ### 9. Key Findings (Insights) & Recommendations 
